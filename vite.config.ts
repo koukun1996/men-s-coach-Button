@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  base: '/men-s-coach-Button/', // GitHub Pages用のベースパス
   plugins: [
     VitePWA({
       registerType: 'autoUpdate',
@@ -31,7 +32,7 @@ export default defineConfig({
         orientation: 'portrait',
         icons: [
           {
-            src: '/favicon.svg',
+            src: '/men-s-coach-Button/favicon.svg', // ベースパスを追加
             sizes: 'any',
             type: 'image/svg+xml'
           }
@@ -39,6 +40,16 @@ export default defineConfig({
       }
     })
   ],
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: false,
+    rollupOptions: {
+      output: {
+        manualChunks: undefined
+      }
+    }
+  },
   server: {
     host: '0.0.0.0',
     port: 5173,

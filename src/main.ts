@@ -19,52 +19,52 @@ class AudioManager {
   private phraseButtons: Howl[];
   private currentBgmName: string = 'なし';
   private bgmList: { name: string; path: string; displayName: string }[] = [
-    { name: 'how-many-boogie', path: '/audio/bgm/How Many Boogie(Instrumental).mp3', displayName: 'How Many Boogie' },
-    { name: 'lose-yourself', path: '/audio/bgm/Lose Yourself (Instrumental).mp3', displayName: 'Lose Yourself' },
-    { name: 'still-dre', path: '/audio/bgm/Still D.R.E. (Instrumental).mp3', displayName: 'Still D.R.E.' },
-    { name: 'human-power-plant', path: '/audio/bgm/human power plant Instrumental.mp3', displayName: 'Human Power Plant' }
+    { name: 'how-many-boogie', path: './audio/bgm/How Many Boogie(Instrumental).mp3', displayName: 'How Many Boogie' },
+    { name: 'lose-yourself', path: './audio/bgm/Lose Yourself (Instrumental).mp3', displayName: 'Lose Yourself' },
+    { name: 'still-dre', path: './audio/bgm/Still D.R.E. (Instrumental).mp3', displayName: 'Still D.R.E.' },
+    { name: 'human-power-plant', path: './audio/bgm/human power plant Instrumental.mp3', displayName: 'Human Power Plant' }
   ];
 
   constructor() {
     // ポートレートモード用のセリフボタン音声の初期化
     this.phraseButtons = [
       new Howl({
-        src: ['/audio/portrait/スポーツ経験がない男.mp3'],
+        src: ['./audio/portrait/スポーツ経験がない男.mp3'],
         volume: 1.0,
         preload: true
       }),
       new Howl({
-        src: ['/audio/portrait/いままであんまり運動の経験がない男.mp3'],
+        src: ['./audio/portrait/いままであんまり運動の経験がない男.mp3'],
         volume: 1.0,
         preload: true
       }),
       new Howl({
-        src: ['/audio/portrait/部活に入った経験のない男.mp3'],
+        src: ['./audio/portrait/部活に入った経験のない男.mp3'],
         volume: 1.0,
         preload: true
       }),
       new Howl({
-        src: ['/audio/portrait/ガチで危機感持った方がいいと思う.mp3'],
+        src: ['./audio/portrait/ガチで危機感持った方がいいと思う.mp3'],
         volume: 1.0,
         preload: true
       }),
       new Howl({
-        src: ['/audio/portrait/◎△＄♪×￥●＆％＃？！.mp3'],
+        src: ['./audio/portrait/◎△＄♪×￥●＆％＃？！.mp3'],
         volume: 1.0,
         preload: true
       }),
       new Howl({
-        src: ['/audio/portrait/テストステロン.mp3'],
+        src: ['./audio/portrait/テストステロン.mp3'],
         volume: 1.0,
         preload: true
       }),
       new Howl({
-        src: ['/audio/portrait/必要な分だけ生成される.mp3'],
+        src: ['./audio/portrait/必要な分だけ生成される.mp3'],
         volume: 1.0,
         preload: true
       }),
       new Howl({
-        src: ['/audio/portrait/落ち着けって.mp3'],
+        src: ['./audio/portrait/落ち着けって.mp3'],
         volume: 1.0,
         preload: true
       })

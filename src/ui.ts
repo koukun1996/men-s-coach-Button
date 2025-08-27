@@ -20,48 +20,48 @@ export const elements = {
 // ボタンカテゴリの定義
 export const buttonCategories = {
   1: [
-    { id: 1, text: 'スポーツ経験がない男', color: 'bg-green-600', hoverColor: 'hover:bg-green-700', audio: '/audio/portrait/スポーツ経験がない男.mp3' },
-    { id: 2, text: 'いままであんまり運動の経験がない男', color: 'bg-blue-600', hoverColor: 'hover:bg-blue-700', audio: '/audio/portrait/いままであんまり運動の経験がない男.mp3' },
-    { id: 3, text: '部活に入った経験のない男', color: 'bg-purple-600', hoverColor: 'hover:bg-purple-700', audio: '/audio/portrait/部活に入った経験のない男.mp3' },
-    { id: 4, text: 'ガチで危機感持った方がいいと思う', color: 'bg-orange-600', hoverColor: 'hover:bg-orange-700', audio: '/audio/portrait/ガチで危機感持った方がいいと思う.mp3' },
-    { id: 5, text: '◎△＄♪×￥●＆％＃？！', color: 'bg-red-600', hoverColor: 'hover:bg-red-700', audio: '/audio/portrait/◎△＄♪×￥●＆％＃？！.mp3' },
-    { id: 6, text: 'テストステロン', color: 'bg-teal-600', hoverColor: 'hover:bg-teal-700', audio: '/audio/portrait/テストステロン.mp3' },
-    { id: 7, text: '必要な分だけ生成される', color: 'bg-pink-600', hoverColor: 'hover:bg-pink-700', audio: '/audio/portrait/必要な分だけ生成される.mp3' },
-    { id: 8, text: '落ち着けって', color: 'bg-indigo-600', hoverColor: 'hover:bg-indigo-700', audio: '/audio/portrait/落ち着けって.mp3' },
-    { id: 9, text: 'カスタム1', color: 'bg-gray-600', hoverColor: 'hover:bg-gray-700', audio: '/audio/portrait/テストステロン.mp3' }
+    { id: 1, text: 'スポーツ経験がない男', color: 'bg-green-600', hoverColor: 'hover:bg-green-700', audio: './audio/portrait/スポーツ経験がない男.mp3' },
+    { id: 2, text: 'いままであんまり運動の経験がない男', color: 'bg-blue-600', hoverColor: 'hover:bg-blue-700', audio: './audio/portrait/いままであんまり運動の経験がない男.mp3' },
+    { id: 3, text: '部活に入った経験のない男', color: 'bg-purple-600', hoverColor: 'hover:bg-purple-700', audio: './audio/portrait/部活に入った経験のない男.mp3' },
+    { id: 4, text: 'ガチで危機感持った方がいいと思う', color: 'bg-orange-600', hoverColor: 'hover:bg-orange-700', audio: './audio/portrait/ガチで危機感持った方がいいと思う.mp3' },
+    { id: 5, text: '◎△＄♪×￥●＆％＃？！', color: 'bg-red-600', hoverColor: 'hover:bg-red-700', audio: './audio/portrait/◎△＄♪×￥●＆％＃？！.mp3' },
+    { id: 6, text: 'テストステロン', color: 'bg-teal-600', hoverColor: 'hover:bg-teal-700', audio: './audio/portrait/テストステロン.mp3' },
+    { id: 7, text: '必要な分だけ生成される', color: 'bg-pink-600', hoverColor: 'hover:bg-pink-700', audio: './audio/portrait/必要な分だけ生成される.mp3' },
+    { id: 8, text: '落ち着けって', color: 'bg-indigo-600', hoverColor: 'hover:bg-indigo-700', audio: './audio/portrait/落ち着けって.mp3' },
+    { id: 9, text: 'カスタム1', color: 'bg-gray-600', hoverColor: 'hover:bg-gray-700', audio: './audio/portrait/テストステロン.mp3' }
   ],
   2: [
-    { id: 10, text: 'カテゴリ2-1', color: 'bg-red-600', hoverColor: 'hover:bg-red-700', audio: '/audio/landscape/カテゴリ2-1.mp3' },
-    { id: 11, text: 'カテゴリ2-2', color: 'bg-blue-600', hoverColor: 'hover:bg-blue-700', audio: '/audio/landscape/カテゴリ2-2.mp3' },
-    { id: 12, text: 'カテゴリ2-3', color: 'bg-green-600', hoverColor: 'hover:bg-green-700', audio: '/audio/landscape/カテゴリ2-3.mp3' },
-    { id: 13, text: 'カテゴリ2-4', color: 'bg-yellow-600', hoverColor: 'hover:bg-yellow-700', audio: '/audio/landscape/カテゴリ2-4.mp3' },
-    { id: 14, text: 'カテゴリ2-5', color: 'bg-purple-600', hoverColor: 'hover:bg-purple-700', audio: '/audio/landscape/カテゴリ2-5.mp3' },
-    { id: 15, text: 'カテゴリ2-6', color: 'bg-pink-600', hoverColor: 'hover:bg-pink-700', audio: '/audio/landscape/カテゴリ2-6.mp3' },
-    { id: 16, text: 'カテゴリ2-7', color: 'bg-indigo-600', hoverColor: 'hover:bg-indigo-700', audio: '/audio/landscape/カテゴリ2-7.mp3' },
-    { id: 17, text: 'カテゴリ2-8', color: 'bg-teal-600', hoverColor: 'hover:bg-teal-700', audio: '/audio/landscape/カテゴリ2-8.mp3' },
-    { id: 18, text: 'カテゴリ2-9', color: 'bg-orange-600', hoverColor: 'hover:bg-orange-700', audio: '/audio/landscape/カテゴリ2-9.mp3' }
+    { id: 10, text: 'カテゴリ2-1', color: 'bg-red-600', hoverColor: 'hover:bg-red-700', audio: './audio/landscape/カテゴリ2-1.mp3' },
+    { id: 11, text: 'カテゴリ2-2', color: 'bg-blue-600', hoverColor: 'hover:bg-blue-700', audio: './audio/landscape/カテゴリ2-2.mp3' },
+    { id: 12, text: 'カテゴリ2-3', color: 'bg-green-600', hoverColor: 'hover:bg-green-700', audio: './audio/landscape/カテゴリ2-3.mp3' },
+    { id: 13, text: 'カテゴリ2-4', color: 'bg-yellow-600', hoverColor: 'hover:bg-yellow-700', audio: './audio/landscape/カテゴリ2-4.mp3' },
+    { id: 14, text: 'カテゴリ2-5', color: 'bg-purple-600', hoverColor: 'hover:bg-purple-700', audio: './audio/landscape/カテゴリ2-5.mp3' },
+    { id: 15, text: 'カテゴリ2-6', color: 'bg-pink-600', hoverColor: 'hover:bg-pink-700', audio: './audio/landscape/カテゴリ2-6.mp3' },
+    { id: 16, text: 'カテゴリ2-7', color: 'bg-indigo-600', hoverColor: 'hover:bg-indigo-700', audio: './audio/landscape/カテゴリ2-7.mp3' },
+    { id: 17, text: 'カテゴリ2-8', color: 'bg-teal-600', hoverColor: 'hover:bg-teal-700', audio: './audio/landscape/カテゴリ2-8.mp3' },
+    { id: 18, text: 'カテゴリ2-9', color: 'bg-orange-600', hoverColor: 'hover:bg-orange-700', audio: './audio/landscape/カテゴリ2-9.mp3' }
   ],
   3: [
-    { id: 19, text: 'カテゴリ3-1', color: 'bg-indigo-600', hoverColor: 'hover:bg-indigo-700', audio: '/audio/landscape/カテゴリ3-1.mp3' },
-    { id: 20, text: 'カテゴリ3-2', color: 'bg-pink-600', hoverColor: 'hover:bg-pink-700', audio: '/audio/landscape/カテゴリ3-2.mp3' },
-    { id: 21, text: 'カテゴリ3-3', color: 'bg-teal-600', hoverColor: 'hover:bg-teal-700', audio: '/audio/landscape/カテゴリ3-3.mp3' },
-    { id: 22, text: 'カテゴリ3-4', color: 'bg-yellow-600', hoverColor: 'hover:bg-yellow-700', audio: '/audio/landscape/カテゴリ3-4.mp3' },
-    { id: 23, text: 'カテゴリ3-5', color: 'bg-red-600', hoverColor: 'hover:bg-red-700', audio: '/audio/landscape/カテゴリ3-5.mp3' },
-    { id: 24, text: 'カテゴリ3-6', color: 'bg-blue-600', hoverColor: 'hover:bg-blue-700', audio: '/audio/landscape/カテゴリ3-6.mp3' },
-    { id: 25, text: 'カテゴリ3-7', color: 'bg-green-600', hoverColor: 'hover:bg-green-700', audio: '/audio/landscape/カテゴリ3-7.mp3' },
-    { id: 26, text: 'カテゴリ3-8', color: 'bg-purple-600', hoverColor: 'hover:bg-purple-700', audio: '/audio/landscape/カテゴリ3-8.mp3' },
-    { id: 27, text: 'カテゴリ3-9', color: 'bg-orange-600', hoverColor: 'hover:bg-orange-700', audio: '/audio/landscape/カテゴリ3-9.mp3' }
+    { id: 19, text: 'カテゴリ3-1', color: 'bg-indigo-600', hoverColor: 'hover:bg-indigo-700', audio: './audio/landscape/カテゴリ3-1.mp3' },
+    { id: 20, text: 'カテゴリ3-2', color: 'bg-pink-600', hoverColor: 'hover:bg-pink-700', audio: './audio/landscape/カテゴリ3-2.mp3' },
+    { id: 21, text: 'カテゴリ3-3', color: 'bg-teal-600', hoverColor: 'hover:bg-teal-700', audio: './audio/landscape/カテゴリ3-3.mp3' },
+    { id: 22, text: 'カテゴリ3-4', color: 'bg-yellow-600', hoverColor: 'hover:bg-yellow-700', audio: './audio/landscape/カテゴリ3-4.mp3' },
+    { id: 23, text: 'カテゴリ3-5', color: 'bg-red-600', hoverColor: 'hover:bg-red-700', audio: './audio/landscape/カテゴリ3-5.mp3' },
+    { id: 24, text: 'カテゴリ3-6', color: 'bg-blue-600', hoverColor: 'hover:bg-blue-700', audio: './audio/landscape/カテゴリ3-6.mp3' },
+    { id: 25, text: 'カテゴリ3-7', color: 'bg-green-600', hoverColor: 'hover:bg-green-700', audio: './audio/landscape/カテゴリ3-7.mp3' },
+    { id: 26, text: 'カテゴリ3-8', color: 'bg-purple-600', hoverColor: 'hover:bg-purple-700', audio: './audio/landscape/カテゴリ3-8.mp3' },
+    { id: 27, text: 'カテゴリ3-9', color: 'bg-orange-600', hoverColor: 'hover:bg-orange-700', audio: './audio/landscape/カテゴリ3-9.mp3' }
   ],
   4: [
-    { id: 28, text: 'カテゴリ4-1', color: 'bg-teal-600', hoverColor: 'hover:bg-teal-700', audio: '/audio/landscape/カテゴリ4-1.mp3' },
-    { id: 29, text: 'カテゴリ4-2', color: 'bg-yellow-600', hoverColor: 'hover:bg-yellow-700', audio: '/audio/landscape/カテゴリ4-2.mp3' },
-    { id: 30, text: 'カテゴリ4-3', color: 'bg-red-600', hoverColor: 'hover:bg-red-700', audio: '/audio/landscape/カテゴリ4-3.mp3' },
-    { id: 31, text: 'カテゴリ4-4', color: 'bg-blue-600', hoverColor: 'hover:bg-blue-700', audio: '/audio/landscape/カテゴリ4-4.mp3' },
-    { id: 32, text: 'カテゴリ4-5', color: 'bg-green-600', hoverColor: 'hover:bg-green-700', audio: '/audio/landscape/カテゴリ4-5.mp3' },
-    { id: 33, text: 'カテゴリ4-6', color: 'bg-purple-600', hoverColor: 'hover:bg-purple-700', audio: '/audio/landscape/カテゴリ4-6.mp3' },
-    { id: 34, text: 'カテゴリ4-7', color: 'bg-indigo-600', hoverColor: 'hover:bg-indigo-700', audio: '/audio/landscape/カテゴリ4-7.mp3' },
-    { id: 35, text: 'カテゴリ4-8', color: 'bg-pink-600', hoverColor: 'hover:bg-pink-700', audio: '/audio/landscape/カテゴリ4-8.mp3' },
-    { id: 36, text: 'カテゴリ4-9', color: 'bg-orange-600', hoverColor: 'hover:bg-orange-700', audio: '/audio/landscape/カテゴリ4-9.mp3' }
+    { id: 28, text: 'カテゴリ4-1', color: 'bg-teal-600', hoverColor: 'hover:bg-teal-700', audio: './audio/landscape/カテゴリ4-1.mp3' },
+    { id: 29, text: 'カテゴリ4-2', color: 'bg-yellow-600', hoverColor: 'hover:bg-yellow-700', audio: './audio/landscape/カテゴリ4-2.mp3' },
+    { id: 30, text: 'カテゴリ4-3', color: 'bg-red-600', hoverColor: 'hover:bg-red-700', audio: './audio/landscape/カテゴリ4-3.mp3' },
+    { id: 31, text: 'カテゴリ4-4', color: 'bg-blue-600', hoverColor: 'hover:bg-blue-700', audio: './audio/landscape/カテゴリ4-4.mp3' },
+    { id: 32, text: 'カテゴリ4-5', color: 'bg-green-600', hoverColor: 'hover:bg-green-700', audio: './audio/landscape/カテゴリ4-5.mp3' },
+    { id: 33, text: 'カテゴリ4-6', color: 'bg-purple-600', hoverColor: 'hover:bg-purple-700', audio: './audio/landscape/カテゴリ4-6.mp3' },
+    { id: 34, text: 'カテゴリ4-7', color: 'bg-indigo-600', hoverColor: 'hover:bg-indigo-700', audio: './audio/landscape/カテゴリ4-7.mp3' },
+    { id: 35, text: 'カテゴリ4-8', color: 'bg-pink-600', hoverColor: 'hover:bg-pink-700', audio: './audio/landscape/カテゴリ4-8.mp3' },
+    { id: 36, text: 'カテゴリ4-9', color: 'bg-orange-600', hoverColor: 'hover:bg-orange-700', audio: './audio/landscape/カテゴリ4-9.mp3' }
   ]
 };
 
