@@ -19,6 +19,7 @@ class AudioManager {
   private phraseButtons: Howl[];
   private currentBgmName: string = 'なし';
   private bgmList: { name: string; path: string; displayName: string }[] = [
+    { name: 'how-to-get-high-legally', path: './audio/bgm/How to Get High Legally(Instrumental).mp3', displayName: 'How to Get High Legally' },
     { name: 'how-many-boogie', path: './audio/bgm/How Many Boogie(Instrumental).mp3', displayName: 'How Many Boogie' },
     { name: 'lose-yourself', path: './audio/bgm/Lose Yourself (Instrumental).mp3', displayName: 'Lose Yourself' },
     { name: 'still-dre', path: './audio/bgm/Still D.R.E. (Instrumental).mp3', displayName: 'Still D.R.E.' },
@@ -217,7 +218,10 @@ class GeorgeVoiceApp {
   this.setupBgmControls();
   
   // BGM選択ドロップダウンの設定
-  setupBgmSelect(this.audioManager.getBgmList());
+  const bgmList = this.audioManager.getBgmList();
+  console.log('BGM List:', bgmList);
+  console.log('BGM Select Element:', elements.bgmSelect);
+  setupBgmSelect(bgmList);
 
     // 音声のプリロード
     this.audioManager.preloadAll();

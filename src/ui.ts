@@ -179,12 +179,15 @@ export const setupBgmControls = (): void => {
 
 // BGM選択ドロップダウンの設定
 export const setupBgmSelect = (bgmList: { name: string; path: string; displayName: string }[]): void => {
+  console.log('setupBgmSelect called with:', bgmList);
   if (elements.bgmSelect) {
+    console.log('BGM Select element found, setting up options...');
     // 既存のオプションをクリア（最初の「BGMを選択」オプションは残す）
     elements.bgmSelect.innerHTML = '<option value="">BGMを選択</option>';
     
     // BGMリストからオプションを追加
     bgmList.forEach(bgm => {
+      console.log('Adding BGM option:', bgm);
       const option = document.createElement('option');
       option.value = bgm.name;
       option.textContent = bgm.displayName;
