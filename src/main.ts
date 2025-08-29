@@ -23,7 +23,8 @@ class AudioManager {
     { name: 'how-many-boogie', path: './audio/bgm/How Many Boogie(Instrumental).mp3', displayName: 'How Many Boogie' },
     { name: 'lose-yourself', path: './audio/bgm/Lose Yourself (Instrumental).mp3', displayName: 'Lose Yourself' },
     { name: 'still-dre', path: './audio/bgm/Still D.R.E. (Instrumental).mp3', displayName: 'Still D.R.E.' },
-    { name: 'human-power-plant', path: './audio/bgm/human power plant Instrumental.mp3', displayName: 'Human Power Plant' }
+    { name: 'human-power-plant', path: './audio/bgm/human power plant Instrumental.mp3', displayName: 'Human Power Plant' },
+    { name: 'escort', path: './audio/bgm/Escort.mp3', displayName: 'Escort' }
   ];
 
   constructor() {

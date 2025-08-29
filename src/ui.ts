@@ -194,17 +194,30 @@ export const setupBgmSelect = (bgmList: { name: string; path: string; displayNam
       elements.bgmSelect.appendChild(option);
     });
 
+    // 初期状態で再生ボタンを無効化
+    const playButton = document.getElementById('bgm-play') as HTMLButtonElement;
+    if (playButton) {
+      playButton.disabled = true;
+      playButton.classList.add('opacity-50', 'cursor-not-allowed');
+    }
+
     // BGM選択時のイベントリスナーを追加
     elements.bgmSelect.addEventListener('change', (e) => {
       const target = e.target as HTMLSelectElement;
       if (target.value) {
-        // BGMが選択されたら自動的に再生ボタンをクリック
+        console.log('BGM selected:', target.value);
+        // BGMが選択されたら再生ボタンを有効化
         const playButton = document.getElementById('bgm-play') as HTMLButtonElement;
         if (playButton) {
-          // 少し遅延を入れてから再生ボタンをクリック（UIの安定性のため）
-          setTimeout(() => {
-            playButton.click();
-          }, 150);
+          playButton.disabled = false;
+          playButton.classList.remove('opacity-50', 'cursor-not-allowed');
+        }
+      } else {
+        // BGMが選択されていない場合は再生ボタンを無効化
+        const playButton = document.getElementById('bgm-play') as HTMLButtonElement;
+        if (playButton) {
+          playButton.disabled = true;
+          playButton.classList.add('opacity-50', 'cursor-not-allowed');
         }
       }
     });
