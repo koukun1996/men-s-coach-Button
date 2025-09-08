@@ -30,7 +30,6 @@ export default defineConfig({
         background_color: '#ffffff',
         display: 'standalone',
         orientation: 'portrait',
-        version: '2.0.0',
         icons: [
           {
             src: '/men-s-coach-Button/images/george-censored.jpg',
