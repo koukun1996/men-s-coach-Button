@@ -23,8 +23,8 @@ export default defineConfig({
         ]
       },
       manifest: {
-        name: 'ジョージボイスWeb',
-        short_name: 'ジョージボイス',
+        name: 'ジョージボタン',
+        short_name: 'ジョージボタン',
         description: 'ジョージ ‑ メンズコーチ‑ の名言・音声を楽しめるWebサービス',
         theme_color: '#000000',
         background_color: '#ffffff',
@@ -32,7 +32,19 @@ export default defineConfig({
         orientation: 'portrait',
         icons: [
           {
-            src: '/men-s-coach-Button/favicon.svg', // ベースパスを追加
+            src: '/men-s-coach-Button/images/george-censored.jpg',
+            sizes: '192x192',
+            type: 'image/jpeg',
+            purpose: 'any maskable'
+          },
+          {
+            src: '/men-s-coach-Button/images/george-censored.jpg',
+            sizes: '512x512',
+            type: 'image/jpeg',
+            purpose: 'any maskable'
+          },
+          {
+            src: '/men-s-coach-Button/favicon.svg',
             sizes: 'any',
             type: 'image/svg+xml'
           }
