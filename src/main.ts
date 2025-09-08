@@ -28,8 +28,9 @@ class AudioManager {
   ];
 
   constructor() {
-    // ポートレートモード用のセリフボタン音声の初期化
+    // すべての音声ファイルの初期化（カテゴリ順）
     this.phraseButtons = [
+      // カテゴリ1（ポートレートモード）
       new Howl({
         src: ['./audio/portrait/スポーツ経験がない男.mp3'],
         volume: 1.0,
@@ -67,6 +68,253 @@ class AudioManager {
       }),
       new Howl({
         src: ['./audio/portrait/落ち着けって.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      // カテゴリ2（短い言葉・感嘆詞）
+      new Howl({
+        src: ['./audio/landscape/やばい.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/でぇ.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/マジでぇ.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/確実に.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/だから.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/反対にぃ.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/最後にぃ.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/お前さぁ.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      // カテゴリ3（危機感・モチベーション関連）
+      new Howl({
+        src: ['./audio/landscape/危機感がないから.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/危機感に…かけすぎてる.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/危機感を持ってた.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/モチベーションがないですぅ.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/頑張れないですぅ.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/やらなきゃやばいから.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/やろうと思ってもできない理由.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      // カテゴリ4（思い出・記憶関連）
+      new Howl({
+        src: ['./audio/landscape/その時の状況思い出せって.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/思い出せって.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/よーく思い出せって.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/も一回思い出せって.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/何かに対して頑張ったのいつ.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/その状況において.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      // カテゴリ5（弱さ・問題点の指摘）
+      new Howl({
+        src: ['./audio/landscape/メンタルが弱い.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/肉体的にも弱い.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/楽して生きていけるから.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/欲しい物なんでも手に入るから.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/シコって満足できる.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/瞬間の快楽に浸ってる.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      // カテゴリ6（質問・疑問形）
+      new Howl({
+        src: ['./audio/landscape/教えて.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/何か理由ある？.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/でも少なくとも.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/もうちょっと伸びてからでいいよ.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/言えることは.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/そうじゃないの.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      // カテゴリ7（強さ・男らしさ関連）
+      new Howl({
+        src: ['./audio/landscape/男として強くなかったら.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/昔の男たちは違った.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/一人でイギリス行ったし.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/イブラヒモヴィッチ.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/ケツに火をつけろって.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/しぬほど.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      // カテゴリ8（その他・長いセリフ）
+      new Howl({
+        src: ['./audio/landscape/家族守れなかったんだよ.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/人生に一度は.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/敵に攻められて.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/好きってところ.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/気持ちよく.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/ドーパミン.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/もうもはや.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/間違い無いでしょ.mp3'],
+        volume: 1.0,
+        preload: true
+      }),
+      new Howl({
+        src: ['./audio/landscape/努力が出来ません.mp3'],
         volume: 1.0,
         preload: true
       })
@@ -108,6 +356,7 @@ class AudioManager {
     const baseFileName = audioFileName.split('/').pop() || '';
     
     const audioFiles = [
+      // カテゴリ1（ポートレートモード）
       'スポーツ経験がない男.mp3',
       'いままであんまり運動の経験がない男.mp3',
       '部活に入った経験のない男.mp3',
@@ -115,7 +364,62 @@ class AudioManager {
       '◎△＄♪×￥●＆％＃？！.mp3',
       'テストステロン.mp3',
       '必要な分だけ生成される.mp3',
-      '落ち着けって.mp3'
+      '落ち着けって.mp3',
+      // カテゴリ2（短い言葉・感嘆詞）
+      'やばい.mp3',
+      'でぇ.mp3',
+      'マジでぇ.mp3',
+      '確実に.mp3',
+      'だから.mp3',
+      '反対にぃ.mp3',
+      '最後にぃ.mp3',
+      'お前さぁ.mp3',
+      // カテゴリ3（危機感・モチベーション関連）
+      '危機感がないから.mp3',
+      '危機感に…かけすぎてる.mp3',
+      '危機感を持ってた.mp3',
+      'モチベーションがないですぅ.mp3',
+      '頑張れないですぅ.mp3',
+      'やらなきゃやばいから.mp3',
+      'やろうと思ってもできない理由.mp3',
+      // カテゴリ4（思い出・記憶関連）
+      'その時の状況思い出せって.mp3',
+      '思い出せって.mp3',
+      'よーく思い出せって.mp3',
+      'も一回思い出せって.mp3',
+      '何かに対して頑張ったのいつ.mp3',
+      'その状況において.mp3',
+      // カテゴリ5（弱さ・問題点の指摘）
+      'メンタルが弱い.mp3',
+      '肉体的にも弱い.mp3',
+      '楽して生きていけるから.mp3',
+      '欲しい物なんでも手に入るから.mp3',
+      'シコって満足できる.mp3',
+      '瞬間の快楽に浸ってる.mp3',
+      // カテゴリ6（質問・疑問形）
+      '教えて.mp3',
+      '何か理由ある？.mp3',
+      'でも少なくとも.mp3',
+      'もうちょっと伸びてからでいいよ.mp3',
+      '言えることは.mp3',
+      'そうじゃないの.mp3',
+      // カテゴリ7（強さ・男らしさ関連）
+      '男として強くなかったら.mp3',
+      '昔の男たちは違った.mp3',
+      '一人でイギリス行ったし.mp3',
+      'イブラヒモヴィッチ.mp3',
+      'ケツに火をつけろって.mp3',
+      'しぬほど.mp3',
+      // カテゴリ8（その他・長いセリフ）
+      '家族守れなかったんだよ.mp3',
+      '人生に一度は.mp3',
+      '敵に攻められて.mp3',
+      '好きってところ.mp3',
+      '気持ちよく.mp3',
+      'ドーパミン.mp3',
+      'もうもはや.mp3',
+      '間違い無いでしょ.mp3',
+      '努力が出来ません.mp3'
     ];
     return audioFiles.indexOf(baseFileName);
   }
